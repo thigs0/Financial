@@ -1,4 +1,4 @@
-/home/thigs/Downloads/pay_fuzzy/build/CMakeFiles/pay.dir
-/home/thigs/Downloads/pay_fuzzy/build/CMakeFiles/edit_cache.dir
-/home/thigs/Downloads/pay_fuzzy/build/CMakeFiles/rebuild_cache.dir
-/home/thigs/Downloads/pay_fuzzy/build/CMakeFiles/pay_autogen.dir
+/home/thigs/Documentos/Financial/build/CMakeFiles/pay.dir
+/home/thigs/Documentos/Financial/build/CMakeFiles/edit_cache.dir
+/home/thigs/Documentos/Financial/build/CMakeFiles/rebuild_cache.dir
+/home/thigs/Documentos/Financial/build/CMakeFiles/pay_autogen.dir

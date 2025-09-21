@@ -1,5 +1,5 @@
-CMakeFiles/pay.dir/pay.cpp.o: /home/thigs/Downloads/pay_fuzzy/pay.cpp \
- /usr/include/stdc-predef.h /home/thigs/Downloads/pay_fuzzy/pay.h \
+CMakeFiles/pay.dir/pay.cpp.o: /home/thigs/Documentos/Financial/pay.cpp \
+ /usr/include/stdc-predef.h /home/thigs/Documentos/Financial/pay.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
@@ -347,10 +347,23 @@ CMakeFiles/pay.dir/pay.cpp.o: /home/thigs/Downloads/pay_fuzzy/pay.cpp \
  /usr/include/openssl/obj_mac.h /usr/include/openssl/asn1.h \
  /usr/include/openssl/asn1err.h /usr/include/openssl/objectserr.h \
  /usr/include/openssl/rand.h /usr/include/openssl/randerr.h \
- /home/thigs/Downloads/pay_fuzzy/nubankreader.h \
+ /home/thigs/Documentos/Financial/nubankreader.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QString \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QDate \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatetime.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVector \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h \
+ /home/thigs/Documentos/Financial/Planner/plannerwidget.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QTableWidget \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtablewidget.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtableview.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QComboBox \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qcombobox.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDateEdit \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdatetimeedit.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatetime.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qcalendar.h \
+ /home/thigs/Documentos/Financial/Planner/planner.hpp

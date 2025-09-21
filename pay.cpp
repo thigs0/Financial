@@ -9,6 +9,7 @@
 #include <openssl/rand.h>
 
 #include "nubankreader.h"
+#include "Planner/plannerwidget.h"
 
 void PayApp::loadCsvFiles() {
     // Seleciona arquivo CSV via diálogo
@@ -223,20 +224,21 @@ void PayApp::saveEncryptedDataToFile() {
 
 
 PayApp::PayApp(QWidget *parent) : QMainWindow(parent) {
-    auto *widget = new QWidget;
-    auto *layout = new QVBoxLayout(widget);
+    // Aba 1: Nubank + Criptografia
+    auto *mainWidget = new QWidget;
+    auto *layout = new QVBoxLayout(mainWidget);
+
     auto *btnSave = new QPushButton("Salvar Dados Criptografados");
     auto *btnLoadEncrypted = new QPushButton("Abrir Dados Criptografados");
-
     auto *btnLoad = new QPushButton("Adicionar CSV(s)");
 
     layout->addWidget(btnSave);
     layout->addWidget(btnLoadEncrypted);
+    layout->addWidget(btnLoad);
 
     connect(btnSave, &QPushButton::clicked, this, &PayApp::saveEncryptedDataToFile);
     connect(btnLoadEncrypted, &QPushButton::clicked, this, &PayApp::loadEncryptedDataFromFile);
-
-    layout->addWidget(btnLoad);
+    connect(btnLoad, &QPushButton::clicked, this, &PayApp::loadCsvFiles);
 
     table = new QTableView(this);
     layout->addWidget(table);
@@ -244,10 +246,15 @@ PayApp::PayApp(QWidget *parent) : QMainWindow(parent) {
     model = new QStandardItemModel(this);
     table->setModel(model);
 
-    setCentralWidget(widget);
+    // Aba 2: Planner (Compras Planejadas)
+    auto *plannerTab = new PlannerWidget;
+
+    // Criando QTabWidget com ambas as abas
+    auto *tabs = new QTabWidget;
+    tabs->addTab(mainWidget, "Transações");
+    tabs->addTab(plannerTab, "Planejamento");
+
+    setCentralWidget(tabs);
     setWindowTitle("Pay App C++");
     resize(800, 600);
-
-    connect(btnLoad, &QPushButton::clicked, this, &PayApp::loadCsvFiles);
 }
-

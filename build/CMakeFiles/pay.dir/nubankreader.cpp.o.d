@@ -1,7 +1,7 @@
 CMakeFiles/pay.dir/nubankreader.cpp.o: \
- /home/thigs/Downloads/pay_fuzzy/nubankreader.cpp \
+ /home/thigs/Documentos/Financial/nubankreader.cpp \
  /usr/include/stdc-predef.h \
- /home/thigs/Downloads/pay_fuzzy/nubankreader.h \
+ /home/thigs/Documentos/Financial/nubankreader.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QString \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qchar.h \

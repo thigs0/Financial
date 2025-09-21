@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/thigs/Downloads/pay_fuzzy
+CMAKE_SOURCE_DIR = /home/thigs/Documentos/Financial
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/thigs/Downloads/pay_fuzzy/build
+CMAKE_BINARY_DIR = /home/thigs/Documentos/Financial/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thigs/Downloads/pay_fuzzy/build/CMakeFiles /home/thigs/Downloads/pay_fuzzy/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thigs/Documentos/Financial/build/CMakeFiles /home/thigs/Documentos/Financial/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thigs/Downloads/pay_fuzzy/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thigs/Documentos/Financial/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -141,6 +141,30 @@ pay_autogen: cmake_check_build_system
 pay_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pay_autogen.dir/build.make CMakeFiles/pay_autogen.dir/build
 .PHONY : pay_autogen/fast
+
+Planner/plannerwidget.o: Planner/plannerwidget.cpp.o
+.PHONY : Planner/plannerwidget.o
+
+# target to build an object file
+Planner/plannerwidget.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pay.dir/build.make CMakeFiles/pay.dir/Planner/plannerwidget.cpp.o
+.PHONY : Planner/plannerwidget.cpp.o
+
+Planner/plannerwidget.i: Planner/plannerwidget.cpp.i
+.PHONY : Planner/plannerwidget.i
+
+# target to preprocess a source file
+Planner/plannerwidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pay.dir/build.make CMakeFiles/pay.dir/Planner/plannerwidget.cpp.i
+.PHONY : Planner/plannerwidget.cpp.i
+
+Planner/plannerwidget.s: Planner/plannerwidget.cpp.s
+.PHONY : Planner/plannerwidget.s
+
+# target to generate assembly for a file
+Planner/plannerwidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pay.dir/build.make CMakeFiles/pay.dir/Planner/plannerwidget.cpp.s
+.PHONY : Planner/plannerwidget.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
@@ -238,6 +262,30 @@ pay_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pay.dir/build.make CMakeFiles/pay.dir/pay_autogen/mocs_compilation.cpp.s
 .PHONY : pay_autogen/mocs_compilation.cpp.s
 
+planner.o: planner.cpp.o
+.PHONY : planner.o
+
+# target to build an object file
+planner.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pay.dir/build.make CMakeFiles/pay.dir/planner.cpp.o
+.PHONY : planner.cpp.o
+
+planner.i: planner.cpp.i
+.PHONY : planner.i
+
+# target to preprocess a source file
+planner.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pay.dir/build.make CMakeFiles/pay.dir/planner.cpp.i
+.PHONY : planner.cpp.i
+
+planner.s: planner.cpp.s
+.PHONY : planner.s
+
+# target to generate assembly for a file
+planner.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pay.dir/build.make CMakeFiles/pay.dir/planner.cpp.s
+.PHONY : planner.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -248,6 +296,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... pay_autogen"
 	@echo "... pay"
+	@echo "... Planner/plannerwidget.o"
+	@echo "... Planner/plannerwidget.i"
+	@echo "... Planner/plannerwidget.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
@@ -260,6 +311,9 @@ help:
 	@echo "... pay_autogen/mocs_compilation.o"
 	@echo "... pay_autogen/mocs_compilation.i"
 	@echo "... pay_autogen/mocs_compilation.s"
+	@echo "... planner.o"
+	@echo "... planner.i"
+	@echo "... planner.s"
 .PHONY : help
 
 

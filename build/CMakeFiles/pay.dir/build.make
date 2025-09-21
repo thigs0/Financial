@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/thigs/Downloads/pay_fuzzy
+CMAKE_SOURCE_DIR = /home/thigs/Documentos/Financial
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/thigs/Downloads/pay_fuzzy/build
+CMAKE_BINARY_DIR = /home/thigs/Documentos/Financial/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/pay.dir/depend.make
@@ -72,64 +72,94 @@ include CMakeFiles/pay.dir/flags.make
 CMakeFiles/pay.dir/pay_autogen/mocs_compilation.cpp.o: CMakeFiles/pay.dir/flags.make
 CMakeFiles/pay.dir/pay_autogen/mocs_compilation.cpp.o: pay_autogen/mocs_compilation.cpp
 CMakeFiles/pay.dir/pay_autogen/mocs_compilation.cpp.o: CMakeFiles/pay.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thigs/Downloads/pay_fuzzy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pay.dir/pay_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pay.dir/pay_autogen/mocs_compilation.cpp.o -MF CMakeFiles/pay.dir/pay_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/pay.dir/pay_autogen/mocs_compilation.cpp.o -c /home/thigs/Downloads/pay_fuzzy/build/pay_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thigs/Documentos/Financial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pay.dir/pay_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pay.dir/pay_autogen/mocs_compilation.cpp.o -MF CMakeFiles/pay.dir/pay_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/pay.dir/pay_autogen/mocs_compilation.cpp.o -c /home/thigs/Documentos/Financial/build/pay_autogen/mocs_compilation.cpp
 
 CMakeFiles/pay.dir/pay_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pay.dir/pay_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thigs/Downloads/pay_fuzzy/build/pay_autogen/mocs_compilation.cpp > CMakeFiles/pay.dir/pay_autogen/mocs_compilation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thigs/Documentos/Financial/build/pay_autogen/mocs_compilation.cpp > CMakeFiles/pay.dir/pay_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/pay.dir/pay_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pay.dir/pay_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thigs/Downloads/pay_fuzzy/build/pay_autogen/mocs_compilation.cpp -o CMakeFiles/pay.dir/pay_autogen/mocs_compilation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thigs/Documentos/Financial/build/pay_autogen/mocs_compilation.cpp -o CMakeFiles/pay.dir/pay_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/pay.dir/main.cpp.o: CMakeFiles/pay.dir/flags.make
 CMakeFiles/pay.dir/main.cpp.o: ../main.cpp
 CMakeFiles/pay.dir/main.cpp.o: CMakeFiles/pay.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thigs/Downloads/pay_fuzzy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/pay.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pay.dir/main.cpp.o -MF CMakeFiles/pay.dir/main.cpp.o.d -o CMakeFiles/pay.dir/main.cpp.o -c /home/thigs/Downloads/pay_fuzzy/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thigs/Documentos/Financial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/pay.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pay.dir/main.cpp.o -MF CMakeFiles/pay.dir/main.cpp.o.d -o CMakeFiles/pay.dir/main.cpp.o -c /home/thigs/Documentos/Financial/main.cpp
 
 CMakeFiles/pay.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pay.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thigs/Downloads/pay_fuzzy/main.cpp > CMakeFiles/pay.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thigs/Documentos/Financial/main.cpp > CMakeFiles/pay.dir/main.cpp.i
 
 CMakeFiles/pay.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pay.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thigs/Downloads/pay_fuzzy/main.cpp -o CMakeFiles/pay.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thigs/Documentos/Financial/main.cpp -o CMakeFiles/pay.dir/main.cpp.s
 
 CMakeFiles/pay.dir/pay.cpp.o: CMakeFiles/pay.dir/flags.make
 CMakeFiles/pay.dir/pay.cpp.o: ../pay.cpp
 CMakeFiles/pay.dir/pay.cpp.o: CMakeFiles/pay.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thigs/Downloads/pay_fuzzy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/pay.dir/pay.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pay.dir/pay.cpp.o -MF CMakeFiles/pay.dir/pay.cpp.o.d -o CMakeFiles/pay.dir/pay.cpp.o -c /home/thigs/Downloads/pay_fuzzy/pay.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thigs/Documentos/Financial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/pay.dir/pay.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pay.dir/pay.cpp.o -MF CMakeFiles/pay.dir/pay.cpp.o.d -o CMakeFiles/pay.dir/pay.cpp.o -c /home/thigs/Documentos/Financial/pay.cpp
 
 CMakeFiles/pay.dir/pay.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pay.dir/pay.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thigs/Downloads/pay_fuzzy/pay.cpp > CMakeFiles/pay.dir/pay.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thigs/Documentos/Financial/pay.cpp > CMakeFiles/pay.dir/pay.cpp.i
 
 CMakeFiles/pay.dir/pay.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pay.dir/pay.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thigs/Downloads/pay_fuzzy/pay.cpp -o CMakeFiles/pay.dir/pay.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thigs/Documentos/Financial/pay.cpp -o CMakeFiles/pay.dir/pay.cpp.s
+
+CMakeFiles/pay.dir/planner.cpp.o: CMakeFiles/pay.dir/flags.make
+CMakeFiles/pay.dir/planner.cpp.o: ../planner.cpp
+CMakeFiles/pay.dir/planner.cpp.o: CMakeFiles/pay.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thigs/Documentos/Financial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/pay.dir/planner.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pay.dir/planner.cpp.o -MF CMakeFiles/pay.dir/planner.cpp.o.d -o CMakeFiles/pay.dir/planner.cpp.o -c /home/thigs/Documentos/Financial/planner.cpp
+
+CMakeFiles/pay.dir/planner.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pay.dir/planner.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thigs/Documentos/Financial/planner.cpp > CMakeFiles/pay.dir/planner.cpp.i
+
+CMakeFiles/pay.dir/planner.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pay.dir/planner.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thigs/Documentos/Financial/planner.cpp -o CMakeFiles/pay.dir/planner.cpp.s
+
+CMakeFiles/pay.dir/Planner/plannerwidget.cpp.o: CMakeFiles/pay.dir/flags.make
+CMakeFiles/pay.dir/Planner/plannerwidget.cpp.o: ../Planner/plannerwidget.cpp
+CMakeFiles/pay.dir/Planner/plannerwidget.cpp.o: CMakeFiles/pay.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thigs/Documentos/Financial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/pay.dir/Planner/plannerwidget.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pay.dir/Planner/plannerwidget.cpp.o -MF CMakeFiles/pay.dir/Planner/plannerwidget.cpp.o.d -o CMakeFiles/pay.dir/Planner/plannerwidget.cpp.o -c /home/thigs/Documentos/Financial/Planner/plannerwidget.cpp
+
+CMakeFiles/pay.dir/Planner/plannerwidget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pay.dir/Planner/plannerwidget.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thigs/Documentos/Financial/Planner/plannerwidget.cpp > CMakeFiles/pay.dir/Planner/plannerwidget.cpp.i
+
+CMakeFiles/pay.dir/Planner/plannerwidget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pay.dir/Planner/plannerwidget.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thigs/Documentos/Financial/Planner/plannerwidget.cpp -o CMakeFiles/pay.dir/Planner/plannerwidget.cpp.s
 
 CMakeFiles/pay.dir/nubankreader.cpp.o: CMakeFiles/pay.dir/flags.make
 CMakeFiles/pay.dir/nubankreader.cpp.o: ../nubankreader.cpp
 CMakeFiles/pay.dir/nubankreader.cpp.o: CMakeFiles/pay.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thigs/Downloads/pay_fuzzy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/pay.dir/nubankreader.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pay.dir/nubankreader.cpp.o -MF CMakeFiles/pay.dir/nubankreader.cpp.o.d -o CMakeFiles/pay.dir/nubankreader.cpp.o -c /home/thigs/Downloads/pay_fuzzy/nubankreader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thigs/Documentos/Financial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/pay.dir/nubankreader.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pay.dir/nubankreader.cpp.o -MF CMakeFiles/pay.dir/nubankreader.cpp.o.d -o CMakeFiles/pay.dir/nubankreader.cpp.o -c /home/thigs/Documentos/Financial/nubankreader.cpp
 
 CMakeFiles/pay.dir/nubankreader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pay.dir/nubankreader.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thigs/Downloads/pay_fuzzy/nubankreader.cpp > CMakeFiles/pay.dir/nubankreader.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thigs/Documentos/Financial/nubankreader.cpp > CMakeFiles/pay.dir/nubankreader.cpp.i
 
 CMakeFiles/pay.dir/nubankreader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pay.dir/nubankreader.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thigs/Downloads/pay_fuzzy/nubankreader.cpp -o CMakeFiles/pay.dir/nubankreader.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thigs/Documentos/Financial/nubankreader.cpp -o CMakeFiles/pay.dir/nubankreader.cpp.s
 
 # Object files for target pay
 pay_OBJECTS = \
 "CMakeFiles/pay.dir/pay_autogen/mocs_compilation.cpp.o" \
 "CMakeFiles/pay.dir/main.cpp.o" \
 "CMakeFiles/pay.dir/pay.cpp.o" \
+"CMakeFiles/pay.dir/planner.cpp.o" \
+"CMakeFiles/pay.dir/Planner/plannerwidget.cpp.o" \
 "CMakeFiles/pay.dir/nubankreader.cpp.o"
 
 # External object files for target pay
@@ -138,14 +168,17 @@ pay_EXTERNAL_OBJECTS =
 pay: CMakeFiles/pay.dir/pay_autogen/mocs_compilation.cpp.o
 pay: CMakeFiles/pay.dir/main.cpp.o
 pay: CMakeFiles/pay.dir/pay.cpp.o
+pay: CMakeFiles/pay.dir/planner.cpp.o
+pay: CMakeFiles/pay.dir/Planner/plannerwidget.cpp.o
 pay: CMakeFiles/pay.dir/nubankreader.cpp.o
 pay: CMakeFiles/pay.dir/build.make
-pay: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.3
+pay: /usr/lib/x86_64-linux-gnu/libQt5Charts.so.5.15.3
 pay: /usr/lib/x86_64-linux-gnu/libcrypto.so
+pay: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.3
 pay: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.3
 pay: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.3
 pay: CMakeFiles/pay.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/thigs/Downloads/pay_fuzzy/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable pay"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/thigs/Documentos/Financial/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable pay"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pay.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -157,6 +190,6 @@ CMakeFiles/pay.dir/clean:
 .PHONY : CMakeFiles/pay.dir/clean
 
 CMakeFiles/pay.dir/depend:
-	cd /home/thigs/Downloads/pay_fuzzy/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thigs/Downloads/pay_fuzzy /home/thigs/Downloads/pay_fuzzy /home/thigs/Downloads/pay_fuzzy/build /home/thigs/Downloads/pay_fuzzy/build /home/thigs/Downloads/pay_fuzzy/build/CMakeFiles/pay.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/thigs/Documentos/Financial/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thigs/Documentos/Financial /home/thigs/Documentos/Financial /home/thigs/Documentos/Financial/build /home/thigs/Documentos/Financial/build /home/thigs/Documentos/Financial/build/CMakeFiles/pay.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/pay.dir/depend
 
