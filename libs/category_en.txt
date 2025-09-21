@@ -1,0 +1,49 @@
+category,subcategory
+Food Retail,Supermarket
+Food Retail,Convenience store
+Food Retail,Butcher shop
+Food Retail,Bakery
+Food Retail,Fresh produce store
+Fashion Retail,Clothing store
+Fashion Retail,Shoe store
+Fashion Retail,Accessories store
+Fashion Retail,Brand outlet
+Shopping Centers,Shopping mall
+Shopping Centers,Strip mall
+Shopping Centers,Street market
+Shopping Centers,Commercial gallery
+Food & Beverage,Restaurant
+Food & Beverage,Snack bar
+Food & Beverage,Bar
+Food & Beverage,Coffee shop
+Food & Beverage,Food truck
+Health & Wellness,Pharmacy
+Health & Wellness,Medical clinic
+Health & Wellness,Dental clinic
+Health & Wellness,Gym
+Health & Wellness,Yoga studio
+General Services,Barber shop
+General Services,Pet shop
+General Services,Laundry service
+General Services,Auto repair shop
+General Services,Locksmith
+Construction & Materials,Hardware store
+Construction & Materials,Paint store
+Construction & Materials,Tool store
+Construction & Materials,Building materials store
+Professional Services,Accounting office
+Professional Services,Travel agency
+Professional Services,Real estate agency
+Professional Services,Bank
+Professional Services,Notary office
+Leisure & Entertainment,Park
+Leisure & Entertainment,Cinema
+Leisure & Entertainment,Bowling alley
+Leisure & Entertainment,Arcade
+Leisure & Entertainment,Cultural center
+Education & Culture,School
+Education & Culture,Language school
+Education & Culture,Library
+Education & Culture,Stationery store
+Education & Culture,Music instruments store
+
